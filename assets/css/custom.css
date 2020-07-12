@@ -1,0 +1,39 @@
+.saira_bold{
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.naming {
+	/*background-color: green;*/
+	position: relative;
+	top: 15vh;
+	left: 15vw;
+	width: 75vw;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  /*background-color: #f1f1f1;*/
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
+.column1 {
+  float: left;
+  width: 75%;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
